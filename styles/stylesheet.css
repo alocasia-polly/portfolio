@@ -39,11 +39,12 @@ a:hover {
 }
 
 ul {
+    display: flex;
     padding: 1rem;
 }
 
 li {
-    display: inline;
+    flex-direction: row;
     list-style-type: none;
     background-color:rgb(0, 119, 113);
     max-width: fit-content;
