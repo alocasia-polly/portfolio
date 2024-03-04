@@ -15,6 +15,10 @@ h1, h2 {
     margin-left: 1rem;
 }
 
+h2 {
+    margin-left: 2rem;
+}
+
 a {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -26,10 +30,13 @@ p {
 }
 
 article {
+    display: flex;
+    flex-wrap: wrap;
     margin: 1rem;
 }
 
 section {
+    max-width: 25vw;
     background-color: rgb(243, 227, 227);
     border-radius: 5%;
     border-color: rgb(252, 183, 100);
