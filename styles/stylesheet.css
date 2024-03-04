@@ -9,9 +9,20 @@ header, footer {
 }
 
 h1, h2 {
-    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
     color: rgb(59, 0, 153);
     margin-left: 1rem;
+}
+
+a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
 
 article {
