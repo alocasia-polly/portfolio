@@ -19,6 +19,14 @@ h2 {
     flex-basis: 100%;
 }
 
+i {
+    transition: transform .2s;
+}
+
+i:hover {
+    transform: scale(1.2);
+}
+
 a {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
